@@ -1,2 +1,2 @@
 # pruebasevtambi
-Repo para hacer pruebas para de EVTA Mercedes Benz Interior
+Repo para hacer pruebas para EVTA Mercedes Benz Interior
