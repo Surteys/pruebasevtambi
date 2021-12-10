@@ -465,7 +465,7 @@ class CheckResponse (QState):
                     
                     if not(len(modularity[box])):
                         modularity.pop(box)
-                        Timer(1, self.releaseTorqueClamp, args = (box,)).start()
+                        Timer(0.1, self.releaseTorqueClamp, args = (box,)).start()
 
                     self.model.torque_data[self.tool]["current_trq"]  = None
 
